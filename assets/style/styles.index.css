@@ -12,17 +12,49 @@ body {
 }
 
 header {
+    height: 150px;
+    border-radius: 6px;
+    background-color: black;
     display: flex;
+    justify-content: space-around;
     flex-direction: row;
+    border-top: thin;
+    border-style: solid;
+    border-color: aqua;
+    align-items: center;
 }
 
-#logo {
-    border-radius: 12px;
+#links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
 }
 
-h1 {
-    color:white;
-    text-align: center;
+#links {
+    text-decoration: none;
+    font-size: 25px; 
+    
+}
+
+#links a :hover {
+    border-bottom: 3px solid white;
+    transform: scale(1.1);
+    color: white;
+}
+
+#Clash {
+    color: white;
+}
+
+#logo-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+#nome {
+    display: flex;
+    flex-direction: column;
 }
 
 #Royale {
@@ -30,6 +62,3 @@ h1 {
     text-align: center;
 }
 
-h3 {
-    text-align: center;
-}
