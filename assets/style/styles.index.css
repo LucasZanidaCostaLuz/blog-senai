@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Whereas recognition of the inherent dignity;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+#logo {
+    border-radius: 12px;
+}
+
+h1 {
+    color:white;
+    text-align: center;
+}
+
+#Royale {
+    color: goldenrod;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
